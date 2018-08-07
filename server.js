@@ -11,8 +11,8 @@ app.use('/data', express.static(path.join(__dirname + '/app/data/')));
 app.use('/boots', express.static(path.join(__dirname + "/node_modules/bootstrap/dist/")))
 app.use('/j', express.static(path.join(__dirname + "/node_modules/jquery/dist/")))
 
-app.use("/", htmlRoutes);
 app.use("/", apiRoutes);
+app.use("/", htmlRoutes);
 
 app.listen(PORT, function(){
     console.log("Listening on ", PORT);
