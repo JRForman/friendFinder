@@ -11,7 +11,6 @@ app.get("/api/friends", function (req, res) {
 })
 app.post("/api/friends", function (req, res) {
     var scores = req.body["values[]"];
-    console.log(scores);
 
     // console.log(friends);
     var top = 50;
@@ -24,10 +23,9 @@ app.post("/api/friends", function (req, res) {
         if (temp<top){
             top = temp;
             match = friends[friend];
-            console.log(friends[friend]);
         }
     }
-
+    friends.push(req.body);
     res.send(match)
 })
 
