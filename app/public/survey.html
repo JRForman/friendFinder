@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <title>Best Friend Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Survey Questions</h3>
+            </div>
+        </div>
+        <hr>
+
+        <div class="form">
+            <div class="form-group">
+                <label for="userName">Your Name</label>
+                <input type="name" class="form-control" id="userName" placeholder="John Smith">
+                <label for="userPicture">Link To A Picture Of You</label>
+                <input type="picture" class="form-control" id="userPicture" placeholder="https://vignette.wikia.nocookie.net/king-harkinian/images/4/47/Spongebob.png/revision/latest?cb=20170518185222">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <!-- {//Small Places, Family, Shedding, Kids, Other Dogs, Groom, Intelligence, Energy, Strangers, Exercise -->
+                        <h4>Question 1</h4>
+                        <label for="sel1">You live in a big house with lots of room.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel1">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 2</h4>
+                        <label for="sel2">You really like having family.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel2">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 3</h4>
+                        <label for="sel3">You are a neat freak.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel3">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 4</h4>
+                        <label for="sel4">You have kids.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel4">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 5</h4>
+                        <label for="sel5">You have pets(dogs, cats).</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel5">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 5</h4>
+                        <label for="sel6">You like to treat yourself and friends to the barber or salon.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel6">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 7</h4>
+                        <label for="sel7">You are intelligent and patient.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel7">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 8</h4>
+                        <label for="sel8">You always have lots of energy.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control" id="sel8">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 9</h4>
+                        <label for="sel9">You are always having friends and strangers over.</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel9">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Question 10</h4>
+                        <label for="sel10">You are very active (running, hiking, sports).</label>
+                        <div class="row">
+                            <div class="col-auto">
+                                <select class="form-control " id="sel10">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" id="submit" class="btn btn-block btn-primary">Submit</button>
+        <br>
+        <br>
+    </div>
+
+    <div class="modal fade" id="noInput" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Input invalid</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Please provide a name and picture link
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="results" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Best Match</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 id="matchName"></h4>
+                        <img id= "matchPhoto" src="..." class="rounded float-right" alt="...">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+
+<script>
+    $("#submit").click(function () {
+        var validate = false;
+        if (($("#userName").val().trim() != "") && ($("#userPicture").val().trim() != "")) {
+            validate = true;
+        } else {
+            $("#noInput").modal("show");
+            return
+        }
+
+        var userVal = {
+            name: $("#userName").val().trim(),
+            photo: $("#userPicture").val().trim(),
+            values: [$("#sel1").val(), $("#sel2").val(), $("#sel3").val(), $("#sel4").val(), $("#sel5").val(), $("#sel6").val(),
+            $("#sel7").val(), $("#sel8").val(), $("#sel9").val(), $("#sel10").val()]
+        }
+
+        $.post("/api/friends", userVal, function (resData) {
+            $("#matchName").text(data.name);
+            $("#matchPhoto").attr("src", data.photo);
+            $("#results").modal("show");
+        })
+
+    });
+
+</script>
+
+</html>
