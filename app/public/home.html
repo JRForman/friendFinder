@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="j/jquery.js"></script>
+    <link rel='stylesheet' href='/boots/css/bootstrap.css' />
+    <script src="/boots/js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <title>Man's Best Friend Finder</title>
@@ -15,13 +16,15 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <img src="../../app/data/dhs.jpg" alt="Dog" class="img-thumbnail" style="width:70px; height: 70px; float: left;">
+            <img src="/data/dhs.jpg" alt="Dog" class="img-thumbnail" style="width:70px; height: 70px; float: left;">
             <h1 class="display-4">Man's Best Friend Finder</h1>
             <h2 class="display-6">Answer a few questions and find your best friend!
             </h2>
             <hr class="my-4">
             <p>Don't worry, this'll be fun!!</p>
-            <span class="far fa-list-alt btn btn-primary btn-lg" id="takeSurvey" href="#" role="button"> Take Survey</span>
+            <a href="/survey">
+                <span class="far fa-list-alt btn btn-primary btn-lg" id="takeSurvey" href="#" role="button"> Take Survey</span>
+            </a>
 
         </div>
     </div>
